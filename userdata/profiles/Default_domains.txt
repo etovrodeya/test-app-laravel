@@ -1,0 +1,2 @@
+orders-app;\orders-app\public
+test-app;\test-app\public

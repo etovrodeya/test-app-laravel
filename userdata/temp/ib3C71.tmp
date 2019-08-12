@@ -1,0 +1,4 @@
+,
+  CONSTRAINT `orders_addresses_id_foreign` FOREIGN KEY (`addresses_id`) REFERENCES `addresses` (`id`),
+  CONSTRAINT `orders_clients_id_foreign` FOREIGN KEY (`clients_id`) REFERENCES `clients` (`id`),
+  CONSTRAINT `orders_tariffs_id_foreign` FOREIGN KEY (`tariffs_id`) REFERENCES `tariffs` (`id`)

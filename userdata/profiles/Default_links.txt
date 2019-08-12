@@ -1,0 +1,6 @@
+﻿Git-Bash;-;%realprogdir%\modules\git\git-bash.exe
+Git-CMD;-;%realprogdir%\modules\git\git-cmd.exe
+"Домашняя страница";"Open Server";https://ospanel.io
+Руководство;"Open Server";https://ospanel.io/docs/
+"Тюнинг SSD";"Фиксы и патчи";%realprogdir%\modules\system\setup_ssd.bat
+"Форум Open Server";"Open Server";https://ospanel.io/forum/

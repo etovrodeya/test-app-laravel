@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+fetch('127.0.0.1/api/orders', {
+   // Параметры ниже не обязательны, по умолчанию метод GET
+   method: 'GET', // любой твой метод
+   mode: "no-cors", // no-cors, cors, *same-origin
+   cache: "no-cache",  // *default, no-cache, reload, force-cache, only-if-cached
+   credentials: "same-origin", // include, *same-origin, omit
+   headers: {
+      // Здесь твои заголовки
+      "Content-Type": "application/json",
+   },
+   // Тут тело запроса с информацией, которую отправляешь серверу, переменная data – javascript-объект
+})
+.then(response => {
+   // Тут пиши что делаешь после выполнения запроса
+   console.log(response);
+})
+.catch(error => {
+   // Тут пиши обработку возникшей ошибки, пример ниже:
+   console.log(error);
+})
+</script>
+
+</body>
+</html>
